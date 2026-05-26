@@ -2,7 +2,7 @@
 setTimeout(function () {
 
     let image = document.createElement("img");
-    image.src = "../images/myphoto.png";
+    image.src = "myphoto.png";
     image.style.width = "100%";
     image.style.height = "auto";
     document.getElementById("imageContainer").appendChild(image);
