@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Profile</a>
+            <a href="grade.html">Grade Converter</a>
+            <a href="staff.html">Staff Page</a>
+            <a href="temp.html">Temperature Converter</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h1>Temperature Converter</h1>
+
+        <div class="container1">
+
+            <input type="number" id="temperature" placeholder="Enter Temperature">
+
+            <br>
+
+            <select id="unit">
+
+                <option value="celsius">
+                    Celsius
+                </option>
+
+                <option value="fahrenheit">
+                    Fahrenheit
+                </option>
+
+                <option value="kelvin">
+                    Kelvin
+                </option>
+
+            </select>
+
+            <br>
+
+            <button onclick="convertTemperature()">
+                Convert
+            </button>
+
+            <h3 id="output"></h3>
+
+        </div>
+
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/temp.js"></script>
+
+</body>
+
+</html>

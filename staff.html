@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Staff Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Profile</a>
+            <a href="grade.html">Grade Converter</a>
+            <a href="staff.html">Staff Page</a>
+            <a href="temp.html">Temperature Converter</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <h1>Staff Information</h1>
+
+        <div class="container1">
+
+            <button onclick="sortByName()">Sort By Name</button>
+            <button onclick="sortBySalary()">Sort By Salary</button>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+
+                <tbody id="StaffTable"></tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <footer id="footer"></footer>
+
+    <script src="../js/staff.js"></script>
+
+</body>
+
+</html>
